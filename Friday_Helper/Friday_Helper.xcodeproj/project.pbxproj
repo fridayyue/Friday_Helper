@@ -13,6 +13,11 @@
 		D187B812230EAE2B0023AD8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D187B811230EAE2B0023AD8B /* Assets.xcassets */; };
 		D187B815230EAE2B0023AD8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D187B813230EAE2B0023AD8B /* LaunchScreen.storyboard */; };
 		D187B818230EAE2B0023AD8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D187B817230EAE2B0023AD8B /* main.m */; };
+		D187B822230EB13F0023AD8B /* Friday_Judge.m in Sources */ = {isa = PBXBuildFile; fileRef = D187B821230EB13F0023AD8B /* Friday_Judge.m */; };
+		D187B827230EB36B0023AD8B /* Friday_Array.m in Sources */ = {isa = PBXBuildFile; fileRef = D187B826230EB36B0023AD8B /* Friday_Array.m */; };
+		D187B82A230EB88C0023AD8B /* Friday_Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = D187B829230EB88C0023AD8B /* Friday_Dictionary.m */; };
+		D187B82D230EB8B00023AD8B /* Friday_Data.m in Sources */ = {isa = PBXBuildFile; fileRef = D187B82C230EB8B00023AD8B /* Friday_Data.m */; };
+		D187B834230EBEBC0023AD8B /* Friday_Device.m in Sources */ = {isa = PBXBuildFile; fileRef = D187B833230EBEBC0023AD8B /* Friday_Device.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,17 @@
 		D187B814230EAE2B0023AD8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D187B816230EAE2B0023AD8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D187B817230EAE2B0023AD8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D187B81F230EB0000023AD8B /* Friday_Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Friday_Helper.h; sourceTree = "<group>"; };
+		D187B820230EB13F0023AD8B /* Friday_Judge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Friday_Judge.h; sourceTree = "<group>"; };
+		D187B821230EB13F0023AD8B /* Friday_Judge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Friday_Judge.m; sourceTree = "<group>"; };
+		D187B825230EB36B0023AD8B /* Friday_Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Friday_Array.h; sourceTree = "<group>"; };
+		D187B826230EB36B0023AD8B /* Friday_Array.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Friday_Array.m; sourceTree = "<group>"; };
+		D187B828230EB88C0023AD8B /* Friday_Dictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Friday_Dictionary.h; sourceTree = "<group>"; };
+		D187B829230EB88C0023AD8B /* Friday_Dictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Friday_Dictionary.m; sourceTree = "<group>"; };
+		D187B82B230EB8B00023AD8B /* Friday_Data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Friday_Data.h; sourceTree = "<group>"; };
+		D187B82C230EB8B00023AD8B /* Friday_Data.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Friday_Data.m; sourceTree = "<group>"; };
+		D187B832230EBEBC0023AD8B /* Friday_Device.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Friday_Device.h; sourceTree = "<group>"; };
+		D187B833230EBEBC0023AD8B /* Friday_Device.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Friday_Device.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +78,7 @@
 				D187B809230EAE2A0023AD8B /* AppDelegate.m */,
 				D187B80B230EAE2A0023AD8B /* ViewController.h */,
 				D187B80C230EAE2A0023AD8B /* ViewController.m */,
+				D187B81E230EAE7B0023AD8B /* Helper */,
 				D187B80E230EAE2A0023AD8B /* Main.storyboard */,
 				D187B811230EAE2B0023AD8B /* Assets.xcassets */,
 				D187B813230EAE2B0023AD8B /* LaunchScreen.storyboard */,
@@ -69,6 +86,48 @@
 				D187B817230EAE2B0023AD8B /* main.m */,
 			);
 			path = Friday_Helper;
+			sourceTree = "<group>";
+		};
+		D187B81E230EAE7B0023AD8B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D187B81F230EB0000023AD8B /* Friday_Helper.h */,
+				D187B82E230EBD570023AD8B /* Device */,
+				D187B823230EB33A0023AD8B /* Judge */,
+				D187B824230EB3460023AD8B /* Data */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		D187B823230EB33A0023AD8B /* Judge */ = {
+			isa = PBXGroup;
+			children = (
+				D187B820230EB13F0023AD8B /* Friday_Judge.h */,
+				D187B821230EB13F0023AD8B /* Friday_Judge.m */,
+			);
+			path = Judge;
+			sourceTree = "<group>";
+		};
+		D187B824230EB3460023AD8B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D187B825230EB36B0023AD8B /* Friday_Array.h */,
+				D187B826230EB36B0023AD8B /* Friday_Array.m */,
+				D187B828230EB88C0023AD8B /* Friday_Dictionary.h */,
+				D187B829230EB88C0023AD8B /* Friday_Dictionary.m */,
+				D187B82B230EB8B00023AD8B /* Friday_Data.h */,
+				D187B82C230EB8B00023AD8B /* Friday_Data.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D187B82E230EBD570023AD8B /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				D187B832230EBEBC0023AD8B /* Friday_Device.h */,
+				D187B833230EBEBC0023AD8B /* Friday_Device.m */,
+			);
+			path = Device;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +200,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D187B834230EBEBC0023AD8B /* Friday_Device.m in Sources */,
+				D187B82A230EB88C0023AD8B /* Friday_Dictionary.m in Sources */,
+				D187B827230EB36B0023AD8B /* Friday_Array.m in Sources */,
 				D187B80D230EAE2A0023AD8B /* ViewController.m in Sources */,
+				D187B82D230EB8B00023AD8B /* Friday_Data.m in Sources */,
 				D187B818230EAE2B0023AD8B /* main.m in Sources */,
+				D187B822230EB13F0023AD8B /* Friday_Judge.m in Sources */,
 				D187B80A230EAE2A0023AD8B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
